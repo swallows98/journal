@@ -1,0 +1,273 @@
+body{
+    background-color: black;
+    font-family: 'Noto Serif JP', serif;
+    font-size:  12px;
+  }
+
+  input[type="button"]{
+    font-family: 'Lato', sans-serif;
+    position:absolute;
+    display: inline-block;
+    font-size:20px;
+    margin:10px;
+    background-color: orangered;
+    border-radius: 15px 50px 30px;
+    padding: 1rem 2rem;
+    right: 4%;
+    top: 10px;
+    color: white;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: 300ms;
+  }
+
+  input:hover,
+input:focus {
+    background: black;
+}
+
+input:focus {
+  outline: none;
+  outline-offset: -4px;
+  
+}
+
+  img{
+    max-width: 100%;
+  }
+  
+  a{
+    text-decoration: none; 
+  }
+  
+  a:link{
+    color: blue;
+  }
+  a:visited{
+    color: turquoise;
+  }
+  
+  a:hover{
+    background-color: pink;
+  }
+
+  li{
+    padding: 1%;
+  }
+  
+  header{
+   font-family: 'Libre Barcode 39', cursive;
+   font-size: 40px;
+   color: white;
+   width: 350px;
+   height: 50px;
+   left: -20px;
+   display: inline-block;
+  /*  justify-content: flex-start;
+   align-content: flex-start;
+   align-items: flex-start; */
+   vertical-align: top;
+   margin: 1%;
+   padding: .1em;
+   text-align: center;
+   position: relative;
+   transition: .5s;
+   transition-timing-function: ease-in;
+  }
+  
+  .nameappear{
+   font-family: 'Lato', sans-serif;   color: white;
+   font-size: 30px;
+   width: 350px;
+   height: 50px;
+   top: -50px;
+   left: 45px;
+   display: inline-block;
+   justify-content: flex-start;
+   align-content: flex-start;
+   align-items: flex-start;
+   vertical-align: top;
+   text-align: left;
+   position: relative;
+   transition: .5s;
+   transition-timing-function: ease-in;
+   opacity: 0;
+  }
+  
+  
+  #maincontainer{
+    display: inline-block;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: calc(100% - 200px);
+    height: 90%;
+    padding: 1%;
+    margin: 1%;
+    font-family: 'Noto Serif JP', serif;
+    font-size:  15px;
+    line-height: 1.5;
+    transition: 1s;
+  }
+  
+  #parentone{
+    background: blue;
+    text-align: left;
+   
+    margin: 1%;
+    padding: 10px;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    filter: blur(100px);
+    
+  }
+  #parenttwo{
+    background: yellow;
+    text-align: left;
+    margin: 1%;
+    padding: 10px;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    filter: blur(100px);
+  }
+  
+  #parentthree{
+    background: orangered;
+    text-align: left;
+    margin: 1%;
+    padding: 10px;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    filter: blur(100px);
+  }
+
+  #parentfour{
+    background: fuchsia;
+    text-align: left;
+    margin: 1%;
+    padding: 10px;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    filter: blur(100px);
+  }
+  
+  .weekone{
+    color: tan;
+    padding: .5em 0em 1em 0em;
+    padding: 10px;
+  }
+  
+  .weektwo{
+    color: tan;
+    padding: .5em 0em 1em 0em;
+    padding: 10px;
+  }
+  
+  .weekthree{
+    color: tan;
+    padding: .5em 0em 1em 0em;
+    padding: 10px;
+  }
+
+  .weekfour{
+    color: tan;
+    padding: .5em 0em 1em 0em;
+    padding: 10px;
+  }
+  
+  .contentone{
+    opacity: 1;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    padding: 10px;
+    color: white;
+  }
+  
+  .contenttwo{
+    color: white;
+    opacity: 1;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    padding: 10px;
+  }
+  
+  .contentthree{
+    color: white;
+    opacity: 1;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    padding: 10px;
+  }
+
+  .contentfour{
+    color: white;
+    opacity: 1;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    padding: 10px;
+  }
+  
+  header:hover {
+    color: black;
+  }
+  header:hover .nameappear{
+    opacity: 1;
+  }
+  
+  #parentone:hover{
+    filter: blur(0px);
+    background: none;
+  }
+  
+  #parenttwo:hover{
+    filter: blur(0px);
+    background: none;
+  }
+  
+  #parentthree:hover{
+    filter: blur(0px);
+    background: none;
+  }
+
+  #parentfour:hover{
+    filter: blur(0px);
+    background: none;
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    #parentone {
+      filter: blur(0px);
+      background: none;
+      line-height: 2;
+    }
+
+    #parenttwo{
+      filter: blur(0px);
+      background: none;
+      line-height: 2;
+    }
+
+    #parentthree{
+      filter: blur(0px);
+      background: none;
+      line-height: 2;
+    }
+
+    #parentfour{
+      filter: blur(0px);
+      background: none;
+      line-height: 2;
+    }
+
+    #maincontainer{
+      width: 110%;
+      font-size: 15px;
+    }
+
+
+
+  }
